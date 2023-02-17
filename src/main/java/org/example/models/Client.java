@@ -2,6 +2,7 @@ package org.example.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -14,8 +15,8 @@ public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @Column(name = "clien_name", nullable = false, unique = true, length = 50)
+    @Column(name = "client_name", nullable = false, unique = false, length = 50)
     private String name;
-    @Column(name = "phone_number", nullable = false, unique = true)
+    @Column(name = "phone_number", nullable = false, unique = false)
     private String phone;
 }
