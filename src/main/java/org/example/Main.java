@@ -1,20 +1,15 @@
 package org.example;
 
-import org.example.models.Client;
-import org.example.models.User;
+import org.example.models.Student;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.hibernate.query.Query;
-
-import java.time.LocalDate;
-import java.util.List;
 
 public class Main {
 
     public static void main(final String[] args)  {
 
         try(Session session = HibernateUtil.getSessionFactory().openSession()) {
-            System.out.println(session);
+          //  System.out.println(session);
 
             //Добавление в базу данных
         /* User u = new User(0,"Alla", LocalDate.of(1988 ,12,30),true,10);
@@ -41,7 +36,7 @@ public class Main {
 
             //Удаление из базы
             Transaction transaction = session.beginTransaction();
-            User delUser = session.find(User.class,2);
+            Student delUser = session.find(Student.class,2);
 
             session.remove(delUser);
             transaction.commit();

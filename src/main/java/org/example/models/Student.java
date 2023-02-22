@@ -2,21 +2,22 @@ package org.example.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
+
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
 @Entity
-@Table(name = "clients")
-public class Client {
+public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @Column(name = "client_name", nullable = false, unique = false, length = 50)
-    private String name;
-    @Column(name = "phone_number", nullable = false, unique = false)
-    private String phone;
+    @Column(length = 50, nullable = false)
+    String surname;
+    @Column(length = 50, nullable = false)
+    String name;
+    @Column
+    private LocalDate birthDate;
 }
