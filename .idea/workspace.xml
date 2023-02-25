@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da2c4ff7-2ebb-413c-ace9-df6a4905de55" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6fd369db-cf2c-47e1-ac74-bc3d7a941016.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6fd369db-cf2c-47e1-ac74-bc3d7a941016/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6fd369db-cf2c-47e1-ac74-bc3d7a941016/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6fd369db-cf2c-47e1-ac74-bc3d7a941016/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6fd369db-cf2c-47e1-ac74-bc3d7a941016/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +112,7 @@
       <workItem from="1677098809021" duration="3598000" />
       <workItem from="1677168794385" duration="4000" />
       <workItem from="1677355019075" duration="5545000" />
-      <workItem from="1677360599296" duration="23000" />
+      <workItem from="1677360599296" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1676655970069</created>
@@ -140,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677360464019</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1677360631979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677360631979</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
